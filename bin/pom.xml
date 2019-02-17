@@ -45,6 +45,9 @@
     <groupId>com.zenjava</groupId>
     <artifactId>javafx-maven-plugin</artifactId>
     <version>8.8.3</version>
+        <configuration>
+        <mainClass>uga.recyclable.CycldApp</mainClass>
+    </configuration>
 </plugin>
       <plugin>
         <groupId>com.google.cloud.tools</groupId>
