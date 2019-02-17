@@ -184,7 +184,7 @@ public class CycldApp extends Application {
 
 			VBox buttons = new VBox(15); // buttons on home page go here
 			Button scanObject = new Button("Scan object");
-			scanObject.setPadding(new Insets(15)); // sets padding for scan object
+			//scanObject.setPadding(new Insets(15)); // sets padding for scan object
 			scanObject.setFont(new Font(15)); // sets text size to 20
 			scanObject.setOnAction(event -> {
 				setScanObjectAction();
@@ -192,7 +192,7 @@ public class CycldApp extends Application {
 			});
 
 			Button searchObject = new Button("Search object");
-			searchObject.setPadding(new Insets(15));
+			//searchObject.setPadding(new Insets(15));
 			searchObject.setFont(new Font(15)); // sets text size to 20
 			Text instr = new Text("Please give the camera at least 15 seconds to screenshot your item!");
 			instr.setFont(new Font(20));
@@ -208,8 +208,8 @@ public class CycldApp extends Application {
 		});
 
 		// Sizes and gives title to the application
-		stage.setMaxWidth(500);
-		stage.setMaxHeight(500);
+		stage.setWidth(500);
+		stage.setHeight(500);
 		stage.setTitle("UGAHACKS 4 - CYCLD");
 		stage.setScene(scene);
 		stage.sizeToScene();
@@ -223,7 +223,7 @@ public class CycldApp extends Application {
 
 			VBox buttons = new VBox(15); // buttons on home page go here
 			Button scanObject = new Button("Scan object");
-			scanObject.setPadding(new Insets(15)); // sets padding for scan object
+			//scanObject.setPadding(new Insets(15)); // sets padding for scan object
 			scanObject.setFont(new Font(15)); // sets text size to 20
 			scanObject.setOnAction(event -> {
 				setScanObjectAction();
@@ -231,7 +231,7 @@ public class CycldApp extends Application {
 			});
 
 			Button searchObject = new Button("Search object");
-			searchObject.setPadding(new Insets(15));
+			//searchObject.setPadding(new Insets(15));
 			searchObject.setFont(new Font(15)); // sets text size to 20
 			Text instr = new Text("Please give the camera at least 15 seconds to screenshot your item!");
 			instr.setFont(new Font(20));
